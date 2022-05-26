@@ -121,9 +121,10 @@ body {
    visibility: hidden;
    text-align: center;
    text-transform: uppercase;
+   padding: 25px 0;
 }
 .nav__item {
-   padding: 10px;
+   padding: 15px 0;
 }
 .nav__link {
    color: #000;
@@ -139,12 +140,13 @@ body {
       visibility: visible;
       position: static;
       background: none;
+      padding: 0;
    }
    .nav__item {
       padding-bottom: 0;
    }
    .nav__item + .nav__item {
-      padding-left: 42px;
+      padding: 0 0 0 42px;
    }
 }
 /*--------------------------------------------------------------*/
