@@ -354,12 +354,12 @@ body {
    left: 50%;
    width: 100px;
    height: 100px;
-   background-image: url(/img/play-button.svg);
+   background-image: url(img/play-button.svg);
    background-size: cover;
    transform: translate(-50%, -50%);
 }
 .work__video:hover:after {
-   background-image: url(/img/play-button-blue.svg);
+   background-image: url(img/play-button-blue.svg);
 }
 .work__video img {
    display: block;
@@ -411,7 +411,7 @@ body {
    transform: translate(-50%, -50%);
    width: 100px;
    height: 58px;
-   background: url(/img/eye.svg);
+   background: url(img/eye.svg);
    background-size: cover;
    opacity: 0;
    visibility: hidden;
@@ -529,6 +529,7 @@ body {
    flex: 1 1 auto;
    display: flex;
    justify-content: flex-end;
+   align-items: center;
 }
 .footer__vk + .footer__vk{
    padding-left: 20px;
